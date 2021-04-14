@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #333333;
+    position: fixed;
+    z-index: 9;
+}
+
+.img1{
+height: 80px;
+width: 70px;
+margin-left: 100px;
+margin-top: 0;
+padding-bottom: 15px;
+padding-top: 15px;
+}
+.name1{
+	margin-left:0;
+	font-size: 25px;
+    padding-bottom: 25px;
+padding-top:30px;
+    color: #B3B3B3;
+}
+.span1{
+	display: flex;
+	display: fixed;
+	z-index: 9;
+
+	
+}
+.name2{
+	font-size: 15px;
+    color: #B3B3B3;
+    margin-right:50px;
+}
+.submit1{
+	border: 1px solid #333333;
+    width: 200px;
+    height: 38px;
+    background:#333333;
+    border-radius: 5px;
+    border-color:#0F0C0C;
+    color:  #B3B3B3;
+    font-size: 22px;
+    margin-left: 850px;
+    margin-top: 20px;
+    font-family: SourceSansPro-SemiBold;
+}
+
+.menu_bar{
+	background-color: #151515;
+	text-align:center;
+	width: 100%;
+	
+}
+
+.menu_bar ul{
+display: inline-flex;
+list-style: none;
+color: white;
+}
+
+.menu_bar ul li{
+	width: 120px;
+	margin: 5px;
+	padding: 5px;
+
+}
+.span2{
+	margin-top: 40px;
+	position: sticky;
+	display: block;
+	margin-top:-12px;
+	
+	
+}
+
+.menu_bar ul li a{
+	text-decoration: none;
+	color: #B3B3B3;
+}
+
+.menu_bar ul li:hover
+{
+	background: #333333;
+	border-radius: 3px;
+}
+
+.sub-menu-1{
+	display: none;
+}
+
+.menu_bar ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background: #333333;
+	margin-top:15px ;
+	margin-left: -15px ;
+}
+.menu_bar ul li:hover .sub-menu-1 ul{
+	display: block;
+	margin: 10px;
+}
+
+.menu_bar ul li:hover .sub-menu-1 ul li{
+width: 150px;
+padding: 10px;
+border-bottom: 1px dotted #B3B3B3;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+.menu_bar ul li:hover .sub-menu-1 ul li:last-child{
+	border-bottom: none;
+}
+.menu_bar ul li:hover .sub-menu-1 ul li a:hover{
+	color: #2C2626;
+}
+.sub-menu-3{
+	display: none;
+}
+
+.menu_bar ul li:hover .sub-menu-3{
+	display: block;
+	position: absolute;
+	background: #333333;
+	margin-top:15px ;
+	margin-left: -15px ;
+}
+.menu_bar ul li:hover .sub-menu-3 ul{
+	display: block;
+	margin: 10px;
+}
+
+.menu_bar ul li:hover .sub-menu-3 ul li{
+width: 150px;
+padding: 10px;
+border-bottom: 1px dotted #B3B3B3;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+
+.sub-menu-2{
+	display: none;
+}
+
+.menu_bar ul li:hover .sub-menu-2{
+	display: block;
+	position: absolute;
+	background: #333333;
+	margin-top:15px ;
+	margin-left: -15px ;
+}
+.menu_bar ul li:hover .sub-menu-2 ul{
+	display: block;
+	margin: 10px;
+}
+
+.menu_bar ul li:hover .sub-menu-2 ul li{
+width: 150px;
+padding: 10px;
+border-bottom: 1px dotted #B3B3B3;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+.search{
+	border: 1px solid black;
+    width: 150px;
+    height: 22px;
+    background:#B3B3B3;
+    border-radius: 5px;
+    border-color:#0F0C0C;
+    color:  #333;
+    font-size: 12px;
+    font-family: SourceSansPro-SemiBold;
+}
+
+.back{
+	background-image: url(../image5/back.jpg);
+    width: 100%;
+	height:550px;
+	
+}
+
+h1{
+	margin-left: 120px;
+	padding-top: 80px;
+	font-size: 30px;
+	font-style: bold;
+
+}
+.icon{
+	width: 19px;
+    height: 19px;
+    position: absolute;
+    top:12px;
+    left: 1085px;
+    border-radius: 10px;
+margin-top: 71px;
+}
+
+.chack{
+	color: white;
+	font-style: bold;
+	font-size: 30px;
+	margin-top: -60px;
+}
+
+.image1{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    z-index: 4;
+    left: 300px;
+    top: -50px;
+}
+
+.image2{
+    width: 400px;
+    height: 250px;
+    position: relative;
+    z-index: 5;
+    left: 150px;
+}
+
+.image3{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    z-index: 3;
+    left: 600px;
+    top: -300px;
+}
+
+.image{
+    margin-top: -350px;
+    margin-left: 350px;
+}
+.span3{
+	width: 100%;
+	display: flex;
+	margin-top: -208px;
+	background-color: #EAEAEA;
+}
+article{
+	width: 350px;
+	height: auto;
+	margin-left: 130px;
+	padding: auto;
+	margin-top: 15px;
+}
+
+footer{
+	background-color: #333;
+	height:50px;
+
+}
+
+.about_us{
+
+}
+.about{
+	width: 850px;
+	height: auto;
+	margin-left: 130px;
+	padding: auto;
+	margin-top: 15px;
+}
